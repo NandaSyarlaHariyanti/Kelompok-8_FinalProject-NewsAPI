@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar-left ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-left li {
+    margin-right: 20px;
+  }
+  
+  .navbar-left a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-right input[type="text"] {
+    padding: 5px;
+  }
+  
+  .navbar-right button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-right button:hover {
+    background-color: #0056b3;
+  }
+
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    max-width: 2000px; 
+  }
+  
+  .news-item {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  
+.button-box {
+    display: inline-block;
+    background-color: blue; 
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    text-decoration: none;
+    
+  }
+
+  .button{
+    display: inline-block;
+    background-color: rgb(5, 62, 70); 
+    color: white;  
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
